@@ -19,5 +19,6 @@ class BankAccount
   
   def valid?
     if @status && @balance > 0 
+    end 
   end 
 end
